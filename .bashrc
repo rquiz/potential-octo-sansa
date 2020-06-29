@@ -44,7 +44,6 @@ NC="\e[m"               # Color Reset
 ALERT=${BWhite}${On_Red} # Bold White on red background
 
 
-
 # Test connection type:
 if [ -n "${SSH_CONNECTION}" ]; then
     CNX=${Green}        # Connected on remote machine, via ssh (good).
@@ -88,3 +87,8 @@ alias lu='ls -ltur'        #  Sort by/show access time,most recent last.
 # The ubiquitous 'll': directories first, with alphanumeric sorting:
 alias ll="ls -al | sort -k1 -r"
 alias la='ls -al'          #  Show hidden files.
+
+# RBEnv as a default
+eval "$(rbenv init -)"
+
+#complete -C /usr/local/bin/terraform terraform
