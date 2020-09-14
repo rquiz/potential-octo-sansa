@@ -8,8 +8,10 @@ Usage
 
 clone the repo and link up the files
 ```
-ln -s ~/Documents/repos/potential-octo-sansa/.vimrc ~/.vimrc
-ln -s ~/Documents/repos/potential-octo-sansa/.bashrc ~/.bashrc
+# CD into repo!
+ln -s $PWD/.vimrc ~/.vimrc
+ln -s $PWD/.bashrc ~/.bashrc
+ln -s $PWD/.zshrc ~/.zshrc
 ```
 
 
