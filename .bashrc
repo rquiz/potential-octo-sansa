@@ -88,7 +88,4 @@ alias lu='ls -ltur'        #  Sort by/show access time,most recent last.
 alias ll="ls -al | sort -k1 -r"
 alias la='ls -al'          #  Show hidden files.
 
-# RBEnv as a default
-# eval "$(rbenv init -)"
-
-#complete -C /usr/local/bin/terraform terraform
+complete -C /usr/local/bin/terraform terraform

@@ -1,8 +1,8 @@
 #% Sets prompt with color exit codes of last command + pwd
 PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%1~%f%b %# '
 
-source ~/.bashrc
-export PATH="$HOME/.rbenv/bin:$PATH"
+# Alias helpers
+alias repos="cd $REPOSPATH"
 
 autoload -Uz compinit && compinit
 

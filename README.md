@@ -6,12 +6,14 @@ Dot Files
 Usage
 ##
 
-clone the repo and link up the files
-```
+1. clone the repo and cd into it
+2. copy and rename dfconfig.sh.tpl to home dir `cp ./dfconfig.sh.tpl ~/dfconig.sh`
+3. open and edit dfconfig to set custom paths
+4. source the config file (below) to reset links and update any changes
+
+```shell
 # CD into repo!
-ln -s $PWD/.vimrc ~/.vimrc
-ln -s $PWD/.bashrc ~/.bashrc
-ln -s $PWD/.zshrc ~/.zshrc
+source ~/dfconfig.sh
 ```
 
 
