@@ -12,8 +12,8 @@ Usage
 4. source the config file (below) to reset links and update any changes
 
 ```shell
-# CD into repo!
-source ~/dfconfig.sh
+# Change to home dir and execute the setup script!
+cd ~ && ./dfconfig.sh
 ```
 
 
